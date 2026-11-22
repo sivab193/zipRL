@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zippy RL — Double DQN Path-Puzzle Training Lab</title>
+    <meta name="description" content="Reinforcement learning workbench that trains a Double DQN agent from scratch to solve Zip Hamiltonian path puzzles, with live board telemetry, Q-value inspection, learning curves, 3D MLP weight visualization, and episode replay." />
+    <meta property="og:title" content="Zippy RL — Double DQN Path-Puzzle Training Lab" />
+    <meta property="og:description" content="Watch a Double DQN neural network learn to solve Zip path puzzles from scratch with live Q-values, learning curves, and a 3D weight-update visualizer." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('zippy-rl-theme');
+          if (saved === 'dark') {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-[#F6F8FB] dark:bg-[#090D16] text-[#0F172A] dark:text-slate-100 antialiased selection:bg-blue-600/20 selection:text-blue-900 dark:selection:text-blue-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

@@ -1,0 +1,6 @@
+{
+  "name": "Zippy RL",
+  "description": "Reinforcement learning workbench that trains a Double DQN agent from scratch to solve Zip Hamiltonian path puzzles, with live board telemetry, Q-value inspection, learning curves, 3D MLP weight visualization, and episode replay.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
